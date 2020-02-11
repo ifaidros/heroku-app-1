@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Chat App</title>
+        <link href="/styles.css" rel="stylesheet" />
+
+    </head>
+    <body>
+        <div id="container">
+        <header>
+            <div id="header-div">
+                <h2>Chat App</h2>
+            </div>
+        </header>
+
+        <div id="users-list">
+
+        </div>
+
+        <div id="chat-window">
+            <div id="output"></div>
+        </div>
+
+
+
+        </div>
+
+        
+        <div id="clear"></div>
+
+        <form id="message-form" autocomplete="off">
+            <input id="input_txt" name="message" placeholder="Message">
+            <button>Send</button>
+        </form>   
+
+
+        <div id="mouse-coords">
+            <p id="mouse-position"></p>
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/moment.js/2.24.0/moment.min.js"></script>
+        <script src="/socket.io/socket.io.js"></script>
+        <script src="/js/chat.js"></script>
+
+    </body>
+</html>
