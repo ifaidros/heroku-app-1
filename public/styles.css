@@ -86,3 +86,13 @@ button:hover {
     text-align: center;
     margin-top: 10px;
 }
+
+/* Mobile Styles */
+@media only screen and (max-width: 450px) {
+    body{
+        background-color: #F09A9D;
+    }
+    #container{
+        width: 90%;
+    }
+  }
