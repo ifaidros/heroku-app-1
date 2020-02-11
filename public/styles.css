@@ -13,14 +13,15 @@ body{
 
 #container{
     width: 30%;
-    margin: 0 auto;
+    margin: 100px auto;
 }
 
 #header-div{
     color: rgb(37, 33, 33);
     background: rgb(127, 186, 224);
-    padding-top:30px;
+    padding-top:20px;
     min-height:70px;
+    border-top:#3e75ec 3px solid;
     border-bottom:#3e75ec 3px solid;
     text-align:center;
     width: 100%;
@@ -30,7 +31,7 @@ body{
 #users-list{
     background: rgb(96, 153, 199);
     width: 30%;
-    height: 500px;
+    height: 400px;
     text-align: center;
     font-weight: bold;
     font-size: 12px;
@@ -39,7 +40,7 @@ body{
 }
 
 #chat-window{
-    height: 500px;
+    height: 400px;
     overflow: auto;
     background: #dfd8d8;
     width: 70%;
@@ -93,6 +94,13 @@ button:hover {
         background-color: #F09A9D;
     }
     #container{
-        width: 90%;
+        width: 70%;
+    }
+    #message-form{
+        margin-left: 80px;
+    }
+    #input_txt {
+        width: 120px;
+        height: 30px;
     }
   }
